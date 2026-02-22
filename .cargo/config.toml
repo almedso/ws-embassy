@@ -1,0 +1,15 @@
+[build]
+# default target for host packages
+
+[target.thumbv7em-none-eabihf]
+runner = "probe-rs run --chip STM32F302R8"
+
+[env]
+DEFMT_LOG = "info"
+
+
+[alias]
+build-stm32 = "build -p firmware-stm32f302r8 --target thumbv7em-none-eabihf"
+run-stm32   = "run -p firmware-stm32f302r8 --target thumbv7em-none-eabihf"
+build-sim = "build -p firmware-sim"
+run-sim   = "run -p firmware-sim"

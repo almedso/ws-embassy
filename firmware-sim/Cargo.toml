@@ -1,0 +1,10 @@
+[package]
+name = "firmware-sim"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+firmware-core = { path = "../firmware-core" }
+embassy-time = { version = "0.5", default-features = false , features = ["std"] }
+embassy-executor = { version = "0.9", features = ["arch-std", "executor-thread"] }
