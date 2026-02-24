@@ -522,7 +522,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "firmware-stm32f302r8"
+name = "firmware-stm32f401re"
 version = "0.1.0"
 dependencies = [
  "cortex-m",
@@ -538,6 +538,7 @@ dependencies = [
  "embedded-io 0.7.1",
  "embedded-io-async 0.7.0",
  "embedded-storage",
+ "firmware-core",
  "panic-probe",
 ]
 

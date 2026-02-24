@@ -3,7 +3,7 @@ resolver = "3"
 members = [
     "firmware-core",
     "firmware-sim",
-    "firmware-stm32f302r8"
+    "firmware-stm32f401re"
 ]
 
 
