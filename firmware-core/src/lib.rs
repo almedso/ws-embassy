@@ -1,4 +1,5 @@
 #![cfg_attr(not(feature = "std"), no_std)]
+#![allow(async_fn_in_trait)]
 
 pub trait Delay {
     async fn delay_ms(&mut self, ms: u64);
