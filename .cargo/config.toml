@@ -9,7 +9,7 @@ DEFMT_LOG = "info"
 
 
 [alias]
-build-st401 = "build -p firmware-stm32f401re --target thumbv7em-none-eabihf --release"
-run-st401   = "run -p firmware-stm32f401re --target thumbv7em-none-eabihf --release"
+build-st401 = "build -p firmware-stm32f401re --target thumbv7em-none-eabihf"
+run-st401   = "run -p firmware-stm32f401re --target thumbv7em-none-eabihf"
 build-sim = "build -p firmware-sim"
 run-sim   = "run -p firmware-sim"

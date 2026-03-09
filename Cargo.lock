@@ -539,6 +539,7 @@ dependencies = [
  "embedded-io-async 0.7.0",
  "embedded-storage",
  "firmware-core",
+ "grove-lcd-rgb",
  "panic-probe",
 ]
 
@@ -575,6 +576,14 @@ dependencies = [
  "futures-core",
  "futures-task",
  "pin-project-lite",
+]
+
+[[package]]
+name = "grove-lcd-rgb"
+version = "0.1.1"
+source = "git+https://github.com/maththedude/grove-lcd-rgb#59bb8a361b6aef2fc60c4615d6d6a79a48ad106a"
+dependencies = [
+ "embedded-hal 1.0.0",
 ]
 
 [[package]]

@@ -6,5 +6,10 @@ members = [
     "firmware-stm32f401re"
 ]
 
-
 [workspace.dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
