@@ -21,7 +21,6 @@
 
 ### Prerequisites
 
-
 * Install `probe-rs`
 * Install rust and target toolchains
 
