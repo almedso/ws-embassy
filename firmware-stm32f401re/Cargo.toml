@@ -32,6 +32,7 @@ cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
 embassy-stm32 = { version = "0.4", features = ["defmt", "stm32f401re", "unstable-pac", "memory-x", "time-driver-any" ]  }
 
 grove-lcd-rgb = { git = "https://github.com/maththedude/grove-lcd-rgb" }
+pwm-pca9685 = { version = "1.0.0", features = ["async"] }
 
 [profile.release]
 debug = 2
